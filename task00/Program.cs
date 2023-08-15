@@ -1,15 +1,9 @@
-﻿// Напишите программу, которая на вход принимает два числа и выдаёт, 
-// какое число большее, а какое меньшее.
-// a = 5; b = 7 -> max = 7
-// a = 2 b = 10 -> max = 10
-// a = -9 b = -3 -> max = -3
+﻿// Напишите программу которая на вход принимает число и выдает его квадрат-Ю4
+// 4 - > 16
+// -3 - > 9
+// -7 - > 49 
 
-Console.WriteLine("Введите первое число");
-int numberOne = Convert.ToInt32(Console.ReadLine());
-int i = number * number;
-
-Console.WriteLine("Введите первое число");
-int numberTwo = Convert.ToInt32(Console.ReadLine())
-
-if 
+Console.WriteLine("Введите целое число");
+int number = Convert.ToInt32(Console.ReadLine());
+int square = number * number;
 Console.WriteLine($"Квадрат числа {number} = {square}");
